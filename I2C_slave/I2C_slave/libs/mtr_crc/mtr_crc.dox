@@ -1,0 +1,23 @@
+/**
+ * @defgroup g_AvrGit AvrGit
+ * @{
+ * @defgroup g_AvrGit__Alt Alt
+ * @{
+ * @defgroup g_AvrGit__Alt__Libs Libs
+ * @{
+ *
+ * @defgroup g_AvrGit__Alt__Libs__mtr_crc mtr_crc
+ * @brief <description>
+ *
+ * @section integration How to integrate
+ *
+ * @subsection install Install
+ * To add this submodule in git use this path: 
+ * @code 
+ * git@git.kb:/home/git/AvrGit/Alt/Libs/mtr_crc.git
+ * @endcode
+ *
+ * @}
+ * @}
+ * @}
+ */
