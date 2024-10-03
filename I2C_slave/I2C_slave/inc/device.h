@@ -10,7 +10,13 @@
 #define	PORT_DO6			PortE, pin6
 #define	PORT_DO7			PortE, pin7
 
+#define PORT_DO8			PortB, pin2
+#define PORT_DO9			PortB, pin3
+#define PORT_DO10			PortB, pin5
+#define PORT_DO11			PortB, pin6
 
+#define PORT_TEST			PortA, pin0
+#define PORT_TEST2			PortA, pin1
 
 // Addresses
 #define	I2C_SLAVE_ADDRESS	0b00000001

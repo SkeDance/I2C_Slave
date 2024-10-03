@@ -15,9 +15,10 @@
 #include "device.h"
 #include "tasks.h"
 
+void Init_GPIO();
 void Init_I2C();
 void Init_Timer1();
-void Init_Timer2();
+void Init_Timer3();
 void Init_Planner();
 
 #endif /* INITS_H_ */

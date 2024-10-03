@@ -16,12 +16,14 @@ void setup() {
   Wire.begin(); // join I2C bus (address optional for master)
 }
 
-byte x = 1;
-
+byte x = 0;
+uint8_t msg[4] = {1, 3, 1, 0};
 void loop() {
+  
   Wire.beginTransmission(1); // transmit to device #1
-  Wire.write(8);              // sends one bytes
-  Wire.write(1);              // sends one byte
+ // Wire.write("x is ");        // sends five bytes
+  Wire.write(8);//shift 
+  Wire.write((uint8_t*)msg, sizeof(msg));// sends one byte
   Wire.endTransmission();    // stop transmitting
 
   //x++;
